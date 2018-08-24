@@ -1,8 +1,8 @@
 
-# NLP Project
+# Summarization using Text Rank
 
-## Summarization using Text Rank
-### Ali Mortazavi
+
+
 In this project, we want to extract important sentences that can summarize the whole text.<br>
 We used __Page Rank Algorithm__ for determining the importance of each sentence. In this algorithm, we consider every sentence in the text as a node and then we have to determine the relationship between nodes. To find the relation between each sentence (nodes in the page rank graph), we used word2vec.<br>
 First, we trained a word2vec from our data. For determining a sentence vector, we used the average of word2vec of its words.
